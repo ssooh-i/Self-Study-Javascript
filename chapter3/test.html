@@ -1,0 +1,6 @@
+<script>
+  //153p, split으로 문자열을 잘라 사용하기
+  const rawInput = Number(prompt('태여난 해를 입력해주세요.'))
+  const tti = '원숭이, 닭, 개, 돼지, 쥐, 소, 호랑이, 토끼, 용, 뱀, 말, 양'.split(',')
+  alert(`${rawInput}년에 태여났다면 ${tti[rawInput%12]}띠입니다.`)
+</script>
